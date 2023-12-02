@@ -1,22 +1,35 @@
-import ErnstPortrait from "./Gallery";
+import React, { Component } from 'react';
+import Navbar from './components/Navbar';
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+} from "react-router-dom";
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Blogs from "./pages/Blogs";
+import SignUp from "./pages/signup";
 
-function Header(){
-  return(
-      <section>
-        <p>Welcome to the Ernst Behrend Gallery! This gallery is full of nothing but Ernst Behrend's wonderful portrait. You <em>definitely</em> shouldn't click any other link. </p>
-      </section>
-  )
+function App() {
+    return (
+        <Router>
+            <Navbar />
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route
+                    path="/contact"
+                    element={<Contact />}
+                />
+                <Route path="/blogs" element={<Blogs />} />
+                <Route
+                    path="/sign-up"
+                    element={<SignUp />}
+                />
+            </Routes>
+        </Router>
+    );
 }
 
-export default function Gallery(){
-  return(
-      <section>
-          <Header/>
-          <ul>
-              <li><ErnstPortrait/></li>
-              <li><ErnstPortrait/></li>
-              <li><ErnstPortrait/></li>
-          </ul>
-      </section>
-  );
-}
+export default App;
