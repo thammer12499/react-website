@@ -1,44 +1,110 @@
-.App {
+body{
+  margin: 0;
+  background-image: url("./pages/images/seamless-wood3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+hr {
+  margin: 10px;
+  opacity: 0.7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div.container {
+  margin: auto;
+  width: 75%;
+  height: auto;
+  background-color: #F9FBFF;
+  padding-bottom: 15px;
+  box-shadow: 5px 10px 5px 8px rgba(0, 0, 0, 0.3);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container h1, h2, h3 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.container p{
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 20px;
+}
+
+.container br {
+  margin-bottom: 15px;
+}
+
+.resume-top{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.resume-top img{
+  width: 100px;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.resume-bold{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.resume-contact{
+  font-size: 14px;
+  font-family: "Courier New";;
+}
+
+.resume-contact br{
+  margin-bottom: 3px;
+}
+
+.resume-bottom ul{
+  text-align: justify;
+  margin: 5px;
+  font-size: 12px;
+}
+
+img {
+  display: inline;
+  width: auto;
+  height: 300px;
+    @media screen and (max-width: 768px){
+      width: 200px;
+      height: auto;
+    }
+
+}
+
+div.canvas-container{
+  min-width: 50%;
+  background-color: hotpink;
+}
+
+.gallery-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
-li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.gallery-content{
+  width: 250px;
+  height: auto;
+  padding: 5px;
+  margin: 20px;
+}
+
+.gallery-content img{
+  height: auto;
+  width: 250px;
+  padding: 10px;
 }

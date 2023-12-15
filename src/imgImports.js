@@ -1,10 +1,10 @@
-import _dimitrescuWink from './images/dimitrescuWink.jpg'
-import _ernstPortrait from './images/ernstPortrait.jpg'
-import _greatSaiyaman from './images/greatSaiyaman.png'
-import _leonConceptArt from './images/leonConceptArt.jpg'
-import _marvelnemesisBrigade from './images/marvelnemesisBrigade.jpg'
-import _owTheEdge from './images/owTheEdge.jpg'
-import _vergilSmile from './images/vergilSmile.jpg'
+import _dimitrescuWink from './pages/images/dimitrescuWink.jpg'
+import _ernstPortrait from './pages/images/ernstPortrait.jpg'
+import _greatSaiyaman from './pages/images/greatSaiyaman.png'
+import _leonConceptArt from './pages/images/leonConceptArt.jpg'
+import _marvelnemesisBrigade from './pages/images/marvelnemesisBrigade.jpg'
+import _owTheEdge from './pages/images/owTheEdge.jpg'
+import _vergilSmile from './pages/images/vergilSmile.jpg'
 
 
 const data = [

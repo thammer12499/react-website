@@ -1,4 +1,4 @@
-import Ernst from './images/ernstPortrait.jpg'
+import Ernst from './pages/images/ernstPortrait.jpg'
 export default function ErnstPortrait() {
     return(
         <img
