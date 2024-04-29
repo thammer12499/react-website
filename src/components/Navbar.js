@@ -17,7 +17,7 @@ const Navbar = () => {
                         R&#233;sum&#233;
                     </NavLink>
                     <NavLink to="/blogs" activeStyle>
-                        Gallery
+                        Portfolio
                     </NavLink>
                     <NavLink to="/sign-up" activeStyle>
                         Find Me
