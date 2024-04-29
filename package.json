@@ -4,7 +4,6 @@
   "homepage": "https://thammer12499.github.io",
   "private": true,
   "dependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.24.1",
     "@react-spring/three": "^9.7.3",
     "@react-three/fiber": "^8.15.12",
@@ -48,6 +47,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.0"
+    "gh-pages": "^6.1.1"
   }
 }
