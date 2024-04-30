@@ -2,11 +2,14 @@
   "name": "react-website",
   "version": "0.1.0",
   "homepage": "https://thammer12499.github.io",
-  "private": true,
+  "private": false,
   "dependencies": {
-    "@babel/plugin-transform-private-property-in-object": "^7.24.1",
+    "@babel/core": "^7.24.5",
+    "@babel/eslint-parser": "^7.24.5",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.24.5",
     "@react-spring/three": "^9.7.3",
-    "@react-three/fiber": "^8.15.12",
+    "@react-three/fiber": "^8.16.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -47,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.24.5",
     "gh-pages": "^6.1.1"
   }
 }
