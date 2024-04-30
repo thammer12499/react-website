@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.a31d6f5d.css",
-    "main.js": "/static/js/main.88077cc8.js",
+    "main.js": "/static/js/main.f8bb0ce8.js",
     "static/js/787.3dcc80ee.chunk.js": "/static/js/787.3dcc80ee.chunk.js",
     "static/media/4KPilwIt2_EeveeRender.png": "/static/media/4KPilwIt2_EeveeRender.28a050ec7c412694a7de.png",
     "static/media/4K_MirrorCombine_Eevee_Render.png": "/static/media/4K_MirrorCombine_Eevee_Render.bd74d4c3b381a1be0d52.png",
     "static/media/4K_PikmIt2_Eevee_Render.png": "/static/media/4K_PikmIt2_Eevee_Render.751d21bb186ffac0148e.png",
     "static/media/SchoolRender2.png": "/static/media/SchoolRender2.c522af69ad1a0ab2284a.png",
     "static/media/SchoolRender1.png": "/static/media/SchoolRender1.c7d884a32480cff6ab75.png",
-    "static/media/papercrease.jpg": "/static/media/papercrease.5ee1e43dd82dd1a4ca2e.jpg",
     "static/media/seamless-wood3.jpg": "/static/media/seamless-wood3.5b266f849448a0cd7226.jpg",
     "static/media/fishing_2021.jpg": "/static/media/fishing_2021.a60d95c887d7dd052489.jpg",
     "index.html": "/index.html",
     "main.a31d6f5d.css.map": "/static/css/main.a31d6f5d.css.map",
-    "main.88077cc8.js.map": "/static/js/main.88077cc8.js.map",
+    "main.f8bb0ce8.js.map": "/static/js/main.f8bb0ce8.js.map",
     "787.3dcc80ee.chunk.js.map": "/static/js/787.3dcc80ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a31d6f5d.css",
-    "static/js/main.88077cc8.js"
+    "static/js/main.f8bb0ce8.js"
   ]
 }
