@@ -1,7 +1,7 @@
 {
   "name": "react-website",
   "version": "0.1.0",
-  "homepage": "https://thammer12499.github.io",
+  "homepage": "https://thammer12499.github.io/react-website",
   "private": false,
   "dependencies": {
     "@react-spring/three": "^9.7.3",
@@ -48,7 +48,7 @@
   "devDependencies": {
     "@babel/core": "^7.24.5",
     "@babel/eslint-parser": "^7.24.5",
-    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-transform-class-properties": "^7.24.1",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.24.5",
     "@babel/preset-env": "^7.24.5",
