@@ -4,10 +4,6 @@
   "homepage": "https://thammer12499.github.io",
   "private": false,
   "dependencies": {
-    "@babel/core": "^7.24.5",
-    "@babel/eslint-parser": "^7.24.5",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@babel/preset-env": "^7.24.5",
     "@react-spring/three": "^9.7.3",
     "@react-three/fiber": "^8.16.2",
     "@testing-library/jest-dom": "^5.17.0",
@@ -50,7 +46,11 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/eslint-parser": "^7.24.5",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
     "gh-pages": "^6.1.1"
   }
 }
