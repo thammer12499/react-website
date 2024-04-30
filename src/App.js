@@ -8,7 +8,6 @@ import Blogs from "./pages/Blogs";
 import SignUp from "./pages/signup";
 import "./App.css"
 import {createRoot} from "react-dom/client";
-import paperTexture from "./pages/images/papercrease.jpg"
 
 function App() {
     return (
